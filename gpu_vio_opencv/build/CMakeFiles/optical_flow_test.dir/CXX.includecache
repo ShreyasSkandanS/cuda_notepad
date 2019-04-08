@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/gpu-vio/optical_flow_test.cpp
+iostream
+-
+vector
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+stdio.h
+-
+sys/time.h
+-
+opencv2/opencv.hpp
+-
+opencv2/gpu/gpu.hpp
+-
+
